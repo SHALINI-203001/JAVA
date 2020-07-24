@@ -1,0 +1,18 @@
+package javaprogram;
+import java.util.*;
+
+public class Multiplcation {
+	public static void main(String args[]) {
+		int num1,num2,mul;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter first number");
+		num1=sc.nextInt();
+		System.out.println("enter second number");
+		num2=sc.nextInt();
+		mul=num1*num2;
+		System.out.println("multiplication is="+mul);
+		
+		
+	}
+
+}
