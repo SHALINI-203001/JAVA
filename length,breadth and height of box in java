@@ -1,0 +1,25 @@
+package javaprogram;
+
+public class Box 
+{
+	int length,breadth,height;
+	public void setdimension(int l,int b,int h)
+	{
+		length=l;
+		breadth=b;
+		height=h;
+	}
+	public void showdimension()
+	{
+		System.out.println("length="+length);
+		System.out.println("breadth="+breadth);
+		System.out.println("height="+height);
+	}
+	public static void main(String args[])
+	{
+		Box b=new Box();
+		b.setdimension(11,23,45);
+		b.showdimension();
+	}
+}
+	
