@@ -1,0 +1,25 @@
+package javaprogram;
+import java.util.*;
+
+public class Fibo {
+	public static void main(String args[])
+	{
+		int k,a=0,b=1;
+		Scanner sc=new Scanner(System.in);
+		k=0;
+		System.out.println("enter any number");
+		int n=sc.nextInt();
+		System.out.println("1 1");
+		while(k<=50)
+		{
+			k=a+b;
+			if(k>=n)
+				break;
+			System.out.println(k+" ");
+			a=b;
+			b=k;
+		}
+		
+	}
+
+}
